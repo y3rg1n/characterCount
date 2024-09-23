@@ -1,3 +1,5 @@
+import pprint
+
 message = "A practical programming course for office workers, academics, and administrators who want to improve their productivity."
 count = {}
 
@@ -6,5 +8,5 @@ for character in message.upper():
     count[character] = count[character] + 1
 
 
-print(sorted(dict.items(count)))
+pprint.pprint(count)
 
