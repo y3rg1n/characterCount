@@ -8,5 +8,9 @@ for character in message.upper():
     count[character] = count[character] + 1
 
 
-pprint.pprint(count)
+x = pprint.pformat(count)
+
+print(x)
+
+
 
