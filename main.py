@@ -6,5 +6,4 @@ for character in message.upper():
     count[character] = count[character] + 1
 
 
-print(sorted(dict.items(count)))
-
+print(count)
